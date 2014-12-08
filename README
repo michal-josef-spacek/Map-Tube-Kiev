@@ -1,0 +1,115 @@
+NAME
+    Map::Tube::Kiev - Interface to the Kiev Metro Map.
+
+SYNOPSIS
+     use Map::Tube::Kiev;
+     my $obj = Map::Tube::Kiev->new;
+     my $routes_ar = $obj->get_all_routes($from, $to);
+     my $station = $obj->get_node_by_id($station_id);
+     my $station = $obj->get_node_by_name($station_name);
+     my $route = $obj->get_shortest_route($from, $to);
+     my $metro_name = $obj->name;
+     my $xml_file = $obj->xml;
+
+DESCRIPTION
+    It currently provides functionality to find the shortest route between
+    the two given nodes.
+
+    For more information about Kiev Map, click here
+    <https://en.wikipedia.org/wiki/Kiev_Metro>.
+
+METHODS
+    "new()"
+             Constructor.
+
+    "get_all_routes($from, $to)" [EXPERIMENTAL]
+             Get all routes from station to station.
+             Returns reference to array with Map::Tube::Route objects.
+
+    "get_node_by_id($station_id)"
+             Get station node by id.
+             Returns Map::Tube::Node object.
+
+    "get_node_by_name($station_name)"
+             Get station node by name.
+             Returns Map::Tube::Node object.
+
+    "get_shortest_route($from, $to)"
+             Get shortest route between $from and $to node names. Node names in $from and $to are case insensitive.
+             Returns Map::Tube::Route object.
+
+    "name()"
+             Get metro name.
+             Returns string with metro name.
+
+    "xml()"
+             Get XML specification of Kiev metro.
+             Returns string with XML.
+
+EXAMPLE1
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use Encode qw(decode_utf8 encode_utf8);
+     use Map::Tube::Kiev;
+
+     # Object.
+     my $obj = Map::Tube::Kiev->new;
+
+     # Get route.
+     my $route = $obj->get_shortest_route(decode_utf8('TODO'), decode_utf8('TODO'));
+
+     # Print out type.
+     print "Route: ".encode_utf8($route)."\n";
+
+     # Output:
+     # Route: TODO
+
+EXAMPLE2
+     # Pragmas.
+     use strict;
+     use utf8;
+     use warnings;
+
+     # Modules.
+     use Map::Tube::Kiev;
+
+     # Object.
+     my $obj = Map::Tube::Kiev->new;
+
+     # Get XML file.
+     my $xml_file = $obj->xml;
+
+     # Print out XML file.
+     print "XML file: $xml_file\n";
+
+     # Output like:
+     # XML file: .*/kiev-map.xml
+
+DEPENDENCIES
+    File::Share, Map::Tube, Moo, namespace::clean.
+
+SEE ALSO
+    Map::Tube, Map::Tube::Barcelona, Map::Tube::Berlin, Map::Tube::Delhi,
+    Map::Tube::London, Map::Tube::Minsk, Map::Tube::Moscow, Map::Tube::NYC,
+    Map::Tube::Prague, Map::Tube::Sofia, Map::Tube::Tokyo,
+    Map::Tube::Warsaw.
+
+REPOSITORY
+    <https://github.com/Manwar/Map-Tube-Kiev>
+
+AUTHOR
+    Michal Špaček <mailto:skim@cpan.org>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+     © 2014 Michal Špaček
+     Artistic License
+     BSD 2-Clause License
+
+VERSION
+    0.01
+
