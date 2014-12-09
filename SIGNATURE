@@ -1,0 +1,53 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 70ce3983054a91f7379d8edb92d27eeff83f4f46 Changes
+SHA1 e0ec4794db8ed773aec2161ed59a49859789fb6a Kiev.pm
+SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
+SHA1 62ea8161d1cc7e68c6aa5a240b42a571037b8c51 LICENSE.bsd
+SHA1 518face63e8a4b942c6d479f4f44eaf526185e37 MANIFEST
+SHA1 e5a76f05119a6f83cec4b168abbb5d1821852fe2 META.yml
+SHA1 e102ea20fc5503f1dd4b28417cc185ea473d5730 Makefile.PL
+SHA1 00c21930d4c875dc16780f76b9beeca42db5d706 README
+SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
+SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
+SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
+SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
+SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
+SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 3283fb3bb58e10c29029567e63b805cdeb66af10 inc/Module/Install/Share.pm
+SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
+SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 c3618cb7749b40ae69b522e997c7748df395598f share/kiev-map.xml
+SHA1 0840658c55b6681a0f54c84546df34a25cf1ae56 t/Map-Tube-Kiev/00-use.t
+SHA1 6ff4a3f8c68e256fc7ce1ba88dfd6168639d47e1 t/Map-Tube-Kiev/01-version.t
+SHA1 c754d8701a093e20845f3c9d330afc2803677b7a t/Map-Tube-Kiev/02-pod_coverage.t
+SHA1 d8ef753c3d27888131f708430609f734f8b280a8 t/Map-Tube-Kiev/03-pod.t
+SHA1 f2634836f5efd4e8743bab30ea1a9876f8f7315c t/Map-Tube-Kiev/04-get_shortest_route.t
+SHA1 6c5c96c7fc60daf9362d507b5c0af431ed849c6c t/Map-Tube-Kiev/05-name.t
+SHA1 2b64ee1d02181aaf831cd6f7dcfd5ea1534636d8 t/Map-Tube-Kiev/06-xml.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJUhjvGAAoJEAwa+cf4dLBabfwIAJb8dLbZjrL3ysz8yUBp5YYS
+aLhfMbwypGyT6fqNhyNUjR1ZlB9yLprF46OoFVPq1Tb6eXTWGmZ9q1B7IEIct1Ye
+hi+rYDd7GAsjdxUy79gvEzKBVDJr1pubWkJJyE1rYjP5URoqu5FCJFDP/ehOh9Te
+FzdyB1klBoUxLeW4vhqqpenR5EEZZSJze3xMQ4++2acDYpzcz2OVJRz+r+LjjDVH
+DMHSHinAMJ56ubMB4aqaGjI6XXPdQJ9kHZL0hFcxm5OIWUhIWBAy9gcRqywoDrji
+CsEz8a8d6Tr9tqKEktXThoqzzV5niHe+cvjhhi+oDPN0Ah3NTTEegKbgUL6tUmg=
+=SR1y
+-----END PGP SIGNATURE-----

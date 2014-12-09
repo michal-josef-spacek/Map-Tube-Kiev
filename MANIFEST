@@ -17,6 +17,7 @@ MANIFEST			This list of files
 META.yml
 README
 share/kiev-map.xml
+SIGNATURE
 t/Map-Tube-Kiev/00-use.t
 t/Map-Tube-Kiev/01-version.t
 t/Map-Tube-Kiev/02-pod_coverage.t
