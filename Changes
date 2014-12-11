@@ -1,6 +1,7 @@
 0.02
  - Add Map::Tube::Bucharest, Map::Tube::Kharkiv and Map::Tube::Samara to SEE
    ALSO section in doc.
+ - Add Map::Tube::Kazan to SEE ALSO section in doc.
  - Add examples/ directory.
  - Fix EXAMPLE1 section in doc.
  - Fix REPOSITORY section in doc.
