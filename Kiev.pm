@@ -195,8 +195,10 @@ L<namespace::clean>.
 =head1 SEE ALSO
 
 L<Map::Tube>,
+L<Map::Tube::Graph>,
 L<Map::Tube::GraphViz>,
-L<Map::Tube::Text::Table>.
+L<Map::Tube::Text::Table>,
+L<Task::Map::Tube>.
 
 L<Map::Tube::Barcelona>,
 L<Map::Tube::Berlin>,
