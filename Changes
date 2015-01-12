@@ -1,4 +1,4 @@
-0.03
+0.03 2015-01-12T07:27:23+01:00
  - Add EXAMPLE3 section to doc.
  - Add Map::Tube::Graph and Task::Map::Tube to SEE ALSO section in doc.
  - Add Map::Tube::GraphViz, Map::Tube::Text::Table,
