@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tube name="Київський метрополітен">
   <!-- https://uk.wikipedia.org/wiki/Київський_метрополітен -->
+  <lines>
+    <line id="1" name="Святошинсько-Броварська лінія" color="red"/>
+    <line id="2" name="Куренівсько-Червоноармійська лінія" color="blue"/>
+    <line id="3" name="Сирецько-Печерська лінія" color="green"/>
+  </lines>
   <stations>
 
     <!-- https://uk.wikipedia.org/wiki/Святошинсько-Броварська_лінія -->
