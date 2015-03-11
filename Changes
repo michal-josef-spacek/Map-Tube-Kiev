@@ -3,6 +3,7 @@
  - Add Map::Tube::Plugin::Graph to SEE ALSO section in doc.
  - Add Map::Tube::Singapore to SEE ALSO section in doc.
  - Add lines to XML document.
+ - Add test of map validity.
 
 0.03 2015-01-12T07:27:23+01:00
  - Add EXAMPLE3 section to doc.

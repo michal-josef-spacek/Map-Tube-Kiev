@@ -26,6 +26,7 @@ t/Map-Tube-Kiev/00-use.t
 t/Map-Tube-Kiev/01-version.t
 t/Map-Tube-Kiev/02-pod_coverage.t
 t/Map-Tube-Kiev/03-pod.t
-t/Map-Tube-Kiev/04-get_shortest_route.t
-t/Map-Tube-Kiev/05-name.t
-t/Map-Tube-Kiev/06-xml.t
+t/Map-Tube-Kiev/04-map.t
+t/Map-Tube-Kiev/05-get_shortest_route.t
+t/Map-Tube-Kiev/06-name.t
+t/Map-Tube-Kiev/07-xml.t
