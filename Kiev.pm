@@ -38,6 +38,8 @@ Map::Tube::Kiev - Interface to the Kiev Metro Map.
  use Map::Tube::Kiev;
  my $obj = Map::Tube::Kiev->new;
  my $routes_ar = $obj->get_all_routes($from, $to);
+ my $line = $obj->get_line_by_id($line_id);
+ my $line = $obj->get_line_by_name($line_name);
  my $lines_ar = $obj->get_lines;
  my $station = $obj->get_node_by_id($station_id);
  my $station = $obj->get_node_by_name($station_name);
@@ -65,6 +67,16 @@ For more information about Kiev Map, click L<here|https://en.wikipedia.org/wiki/
 
  Get all routes from station to station.
  Returns reference to array with Map::Tube::Route objects.
+
+=item C<get_all_routes($from, $to)> [EXPERIMENTAL]
+
+ Get all routes from station to station.
+ Returns reference to array with Map::Tube::Route objects.
+
+=item C<get_line_by_id($line_id)>
+
+ Get line object defined by id.
+ Returns Map::Tube::Line object.
 
 =item C<get_lines()>
 
