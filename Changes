@@ -1,5 +1,5 @@
 0.05
- - Update to Map::Tube 3.02 due potencial warnings in map tests.
+ - Update to Map::Tube 3.06.
 
 0.04 2015-10-08T10:33:10+02:00
  - Add <?xml> header to XML document.
