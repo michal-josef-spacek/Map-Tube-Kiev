@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 c6ce0cc3971ebdd3d1a6b3864caf4fbb36d80b90 Changes
-SHA1 69c39218717e31ab237e29c34f382bb2f83db6cf Kiev.pm
+SHA1 94779ff17d65379221fe246c9dc5d847b1c012e0 Changes
+SHA1 6dd2d19f541e648ce5eadb3b04aaafb5319589a7 Kiev.pm
 SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
 SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE.bsd
 SHA1 cfb681e3ec91136c578036271079e29fb39dc3fe MANIFEST
-SHA1 9659051f4a3fa0b176e211cb5052a0f270645f9a META.yml
-SHA1 7a5d3694da372d7824189d6fa16dead43146ad1a Makefile.PL
-SHA1 7b1355874253546869e57b607078881128b99234 README
+SHA1 693665433fb217e814023f4d9d9003f58b1ec0dc META.yml
+SHA1 880caf419efa0a2162d1e90995dbe08d8f5bbe9c Makefile.PL
+SHA1 f2ca1e5ddab837c4ff32552bb1b5bc13c0221eed README
 SHA1 75d3b72cbc24cb1d50aca5ec9a1af53c28155295 examples/ex1.pl
 SHA1 0e2a1f19a98d1b302d99998d1d42d0ab1316415e examples/ex2.pl
 SHA1 a06a8381fbf9ef0b6abcf94d39515a46339096f0 examples/ex3.pl
@@ -41,11 +41,11 @@ SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
 SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
 SHA1 3538c31d5baa5559c71efbb004239fd2d91d42f6 share/kiev-map.xml
 SHA1 0840658c55b6681a0f54c84546df34a25cf1ae56 t/Map-Tube-Kiev/01-use.t
-SHA1 997f3eba2cbfc586adfd24a2b5145a9fbd7fa343 t/Map-Tube-Kiev/02-version.t
+SHA1 c71b565103338c2cdb6d63b5da02810142c7638c t/Map-Tube-Kiev/02-version.t
 SHA1 f0f71d4f4ab3136d069acf37e7216837dd24715c t/Map-Tube-Kiev/03-map.t
-SHA1 f2c862a302fa0b519e85e16ead3ce8ee143d0fc4 t/Map-Tube-Kiev/04-get_node_by_id.t
-SHA1 82220ea94bb4ac9e736ef50b3fd186cea44d00e1 t/Map-Tube-Kiev/05-get_node_by_name.t
-SHA1 b0957d75c8d1c9453c5c399a5ffb6cac7a2afab1 t/Map-Tube-Kiev/06-get_shortest_route.t
+SHA1 5fb01c0b3d857b65368470837d8bc1368b800bc3 t/Map-Tube-Kiev/04-get_node_by_id.t
+SHA1 ea7d57dede6c29dfe6021ae9b342f49287b728b9 t/Map-Tube-Kiev/05-get_node_by_name.t
+SHA1 5ccd63c0f75811914195eb87838674db4bd8ba0d t/Map-Tube-Kiev/06-get_shortest_route.t
 SHA1 652a8efc866c608051c5fc4d3eb22e4f333febdf t/Map-Tube-Kiev/07-name.t
 SHA1 a2db6e078f9a023b0c51eb3344ba1191ce0e318a t/Map-Tube-Kiev/08-xml.t
 SHA1 c754d8701a093e20845f3c9d330afc2803677b7a xt/Map-Tube-Kiev/01-pod_coverage.t
@@ -53,11 +53,11 @@ SHA1 d8ef753c3d27888131f708430609f734f8b280a8 xt/Map-Tube-Kiev/02-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWFipIAAoJEJe+XXKaIuTlcX8H/3IPUoHC3L1eQE0tA74caabC
-6Y0CKeW8swowIccOHwBbiyJE7LgtcFKO3YdlJMkiVGJPbqXR+685a0juiBUicjRE
-wKxu+eOpQW2LbYTmcuwUgmx842kvCtsS6pg9EsuPBcVMm0GndcJO4ydm66F8gksS
-b1rO1DLDWJmu6clx/2QcCuOrRB0ADgBEFLJNymEx/mfwt3Z8uqUuCoiHt2EodkUv
-rFFBVmkmBJqNbpcg+vE+lE9COhoyX0bxwwvMIq7ji7Zh0Cgic4VbHLvJd265mbJF
-31DsYo0nLgZ0mtUlybiV7xafGwMJ2m4NC3HBt5tPnU4pU5EyjhIx42f+5MkzS/Y=
-=bwUw
+iQEcBAEBAgAGBQJWIMShAAoJEJe+XXKaIuTlTt8H/iXQHYBHeMtDx3o0YYHTDlQ5
+nK1VSBPltXpm7mvVX2nNZQj7tu5mPL77WhFhU0w8mb0YZ7gXNcdNFzkNTWnF54y3
+6i435gKvio6pM4UjjhuTHSZno9AjAQ6TgfJlaC4o0P78xms8TogTquEoDSFAv92x
+m0v29iYlr4gzN9RskPsreDR26D3t98ueSYdRnNReSnD8raEAw8QHvVDNgs4C7DJ3
+FyxiWWtB2BaCFzatGgci22PIY5BpD2T2wEUj8XH9tT/uHkjIXtyGxDZYCvs9zSY8
+yKW8qBwHT2Hyk84uffUliwkpZmHg8jgpz0/ezqFRTUVm78sYIWRZgXSK+ypqCF8=
+=vndd
 -----END PGP SIGNATURE-----
