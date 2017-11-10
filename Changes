@@ -3,6 +3,7 @@
  - Add constructed lines to XML file.
  - Implement station order.
  - Rewrite XML map to new version with line IDs.
+ - Update Module::Install to 1.18 version.
 
 0.05 2015-10-16T11:34:21+02:00
  - Improve description for get_lines() in doc.
