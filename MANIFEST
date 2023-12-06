@@ -4,7 +4,7 @@ examples/print_kiev_image.pl
 examples/print_kiev_line_stations.pl
 examples/print_kiev_lines.pl
 examples/print_kiev_route.pl
-images/ex3.png
+images/Kiev.png
 inc/Module/Install.pm
 inc/Module/Install/AuthorRequires.pm
 inc/Module/Install/AuthorTests.pm

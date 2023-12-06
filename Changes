@@ -2,6 +2,7 @@
  - Add EXAMPLE5 section to doc.
  - Add constructed lines to XML file.
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
+ - Fix image name.
  - Implement station order.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SYNOPSIS section in doc.
