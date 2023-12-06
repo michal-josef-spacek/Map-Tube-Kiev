@@ -3,6 +3,7 @@
  - Add constructed lines to XML file.
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Implement station order.
+ - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SYNOPSIS section in doc.
  - Rewrite XML map to new version with line IDs.
  - Update Map::Tube dependency to 3.62.
