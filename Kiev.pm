@@ -145,6 +145,8 @@ Returns string with XML.
 
 =head1 EXAMPLE1
 
+=for comment filename=print_kiev_route.pl
+
  use strict;
  use warnings;
 
@@ -165,6 +167,8 @@ Returns string with XML.
 
 =head1 EXAMPLE2
 
+=for comment filename=print_kiev_def_xml_file.pl
+
  use strict;
  use utf8;
  use warnings;
@@ -184,6 +188,8 @@ Returns string with XML.
  # XML file: .*/kiev-map.xml
 
 =head1 EXAMPLE3
+
+=for comment filename=print_kiev_image.pl
 
  use strict;
  use warnings;
@@ -221,6 +227,8 @@ Returns string with XML.
 
 =head1 EXAMPLE4
 
+=for comment filename=print_kiev_lines.pl
+
  use strict;
  use warnings;
 
@@ -242,6 +250,8 @@ Returns string with XML.
  # Сирецько-Печерська лінія
 
 =head1 EXAMPLE5
+
+=for comment filename=print_kiev_line_stations.pl
 
  use strict;
  use warnings;
